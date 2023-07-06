@@ -1,0 +1,89 @@
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+ top:48px;
+  left:0;
+  background-color: #111;
+  /* overflow-x: hidden; */
+ overflow: auto;  /* thpeko */
+  /* padding-top: 16px; */
+}
+h2{
+  color: rgb(191, 233, 243);
+  padding-left: 30px;
+}
+
+  
+.navbar-nav{
+  float:right;
+
+}
+nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+nav a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+.sidebar a {
+   padding: 6px 8px 6px 16px; 
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+nav{
+  height: 30px;
+  background-color: #111;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  padding: 1px 16px;
+  /* background-color:rgb(247, 247, 242); */
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+legend{
+  margin-top: 70px;
+  color: rgb(12, 11, 26) ;
+} 
+
+
+.cards{
+  width:20%;
+ border-radius: 5px;
+  margin:80px;
+  box-shadow: 1px 1px 5px  black;
+  display: inline-block;
+}
+
+.title{
+  text-align: center;
+}
+.desc{
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  
+}
+
+
+
+
